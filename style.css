@@ -47,6 +47,16 @@ section h2 {
     font-size: 32px;
     margin-top: 0;
     margin-bottom: 30px;
+      color: #111827;
+}
+section p {
+    line-height: 1.7;
+}
+section li {
+    margin-bottom: 8px;
+}
+section ul {
+    line-height: 1.6;
 }
 .cards-habilidades {
     display: flex;
@@ -66,6 +76,7 @@ section h2 {
 .cards-habilidades h3 {
     margin-top: 0;
     font-size: 22px;
+     color: #111827;
 }
 .cards-habilidades ul {
     padding-left: 20px;
@@ -91,12 +102,35 @@ section h2 {
 .cards-projetos h3 {
     margin-top: 0;
     font-size: 22px;
+    color: #111827;
+}
+.cards-projetos h4, .cards-projetos h5 {
+      color: #374151;
+    margin-bottom: 10px;
+      color: #374151;
+    margin-bottom: 10px;
 }
 .cards-projetos ul {
     padding-left: 22px;
 }
 .cards-projetos article:hover {
     transform: translateY(-5px);
+}
+#contato h2 {
+color: black;
+}
+#contato a {
+    color: #38bdf8;
+    text-decoration: none;
+    transition: 0.2s;
+    display: inline-block;
+    padding: 8x 14x ;
+    border-radius: 6px;
+}
+#contato a:hover {
+     background-color: #38bdf8;
+    color: #111827;
+    
 }
 @media (max-width: 600px) {
     nav{
@@ -109,4 +143,11 @@ section h2 {
     .cards-projetos {
         flex-direction: column;
     }
+    section {
+    padding: 40px 15px;
+    }
+    section h2 {
+    font-size: 26px;
+    }
 }
+
