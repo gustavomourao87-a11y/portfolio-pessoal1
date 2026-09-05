@@ -1,0 +1,93 @@
+body {
+    background-color:white;
+    color: black;
+    margin: 0;
+}
+nav{
+    background-color: azure;
+    color: black;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+header {
+    background-color: gray;
+    padding: 60px 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+header h2 {
+    font-size: 20px;
+    margin: 10px 0 0;
+}
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+.cards-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cards-habilidades article {
+    background-color: rgb(174, 248, 224);
+    color: black;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+    flex: 1 1 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.cards-habilidades h3 {
+    margin-top: 0;
+    font-size: 22px;
+}
+.cards-habilidades ul {
+    padding-left: 20px;
+}
+.cards-habilidades article:hover {
+    transform: translateY(-5px);
+}
+.cards-projetos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cards-projetos article {
+     background-color: rgb(174, 248, 224);
+    color: black;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+    flex: 1 1 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.cards-projetos h3 {
+    margin-top: 0;
+    font-size: 22px;
+}
+.cards-projetos ul {
+    padding-left: 22px;
+}
+.cards-projetos article:hover {
+    transform: translateY(-5px);
+}
+@media (max-width: 600px) {
+    nav{
+        flex-direction: column;
+    }
+}
