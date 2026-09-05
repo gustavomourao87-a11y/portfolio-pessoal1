@@ -90,4 +90,7 @@ section {
     nav{
         flex-direction: column;
     }
+    header h1 {
+        font-size: 60px;
+    }
 }
