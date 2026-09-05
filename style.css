@@ -91,6 +91,6 @@ section {
         flex-direction: column;
     }
     header h1 {
-        font-size: 60px;
+        font-size: 30px;
     }
 }
