@@ -63,7 +63,7 @@ section ul {
     flex-wrap: wrap;
     gap: 20px;
 }
-.cards-habilidades article {
+.card {
     background-color: hsl(39, 86%, 80%);
     color: black;
     padding: 25px;
@@ -81,23 +81,13 @@ section ul {
 .cards-habilidades ul {
     padding-left: 20px;
 }
-.cards-habilidades article:hover {
+.card:hover{
     transform: translateY(-5px);
 }
 .cards-projetos {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-}
-.cards-projetos article {
-     background-color: rgb(174, 248, 224);
-    color: black;
-    padding: 25px;
-    border-radius: 10px;
-    border: 1px solid black;
-    flex: 1 1 250px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
 }
 .cards-projetos h3 {
     margin-top: 0;
@@ -112,9 +102,6 @@ section ul {
 }
 .cards-projetos ul {
     padding-left: 22px;
-}
-.cards-projetos article:hover {
-    transform: translateY(-5px);
 }
 #contato h2 {
 color: black;
@@ -131,6 +118,25 @@ color: black;
      background-color: #38bdf8;
     color: #111827;
     
+}
+footer {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+footer h2 {
+    margin: 0;
+    font-size: 24px;
+}
+footer h3 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 10px 0;
+}
+footer p {
+    margin: 20px 0 0;
+    font-size: 14px;
 }
 @media (max-width: 600px) {
     nav{
