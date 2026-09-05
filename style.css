@@ -1,5 +1,5 @@
 body {
-    background-color:#f5f5f5;
+    background-color: rgb(250, 250, 176);
     color: black;
     margin: 0;
 }
@@ -21,7 +21,7 @@ nav a:hover{
      color: #38bdf8;
 }
 header {
-    background-color:  #111827;
+    background-color: #c45a35;
     color: white;
     padding: 60px 20px;
     text-align: center;
@@ -41,7 +41,12 @@ section {
     max-width: 1000px;
     margin: 0 auto;
     padding: 60px 20px;
-    background-color: white;
+    background-color: rgb(250, 250, 176);
+}
+section h2 {
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 .cards-habilidades {
     display: flex;
@@ -49,14 +54,14 @@ section {
     gap: 20px;
 }
 .cards-habilidades article {
-    background-color: rgb(174, 248, 224);
+    background-color: hsl(39, 86%, 80%);
     color: black;
     padding: 25px;
     border-radius: 10px;
     border: 1px solid black;
     flex: 1 1 250px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);    
+    transition: transform 0.2s
 }
 .cards-habilidades h3 {
     margin-top: 0;
